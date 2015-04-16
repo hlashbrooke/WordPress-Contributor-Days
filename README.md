@@ -1,1 +1,1 @@
-# WordPress-Contributor-Days
+# WordPress Contributor Days

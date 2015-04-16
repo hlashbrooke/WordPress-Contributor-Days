@@ -4,7 +4,7 @@ Custom child theme and plugin for the WordPress Contributor Days site.
 
 **Parent theme:** [Canvas](http://www.woothemes.com/products/canvas) by WooThemes
 
-**Plugins:**
+**Plugins used:**
 * [Event Organiser](https://wordpress.org/plugins/event-organiser/)
 * [Event Organiser Pro](http://wp-event-organiser.com/extensions/event-organiser-pro/)
 * [Event Organiser Frontend Submissions](http://wp-event-organiser.com/extensions/event-organiser-frontend-submissions/)

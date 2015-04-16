@@ -1,0 +1,292 @@
+/*
+Theme Name: WPCD
+Theme URI: 
+Version: 1.0.0
+Description: Custom Canvas child theme for WPCD.
+Author: Hugh Lashbrooke
+Author URI: http://www.hughlashbrooke.com/
+Template: canvas
+*/
+
+#logo .site-title, #logo .site-description {
+	display: block !important;
+}
+
+#nav-container {
+    display: none !important;
+}
+
+.home section h2 {
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+.home .widget_woothemes_testimonials .quote blockquote {
+	padding: 10px !important;
+	background: #FFCDD2;
+	font-size: 85%;
+	box-shadow: 0 2px 5px rgba(0,0,0,0.23),0 2px 5px rgba(0,0,0,0.16) !important;
+	-webkit-box-shadow: 0 2px 5px rgba(0,0,0,0.23),0 2px 5px rgba(0,0,0,0.16) !important;
+	-moz-box-shadow: 0 2px 5px rgba(0,0,0,0.23),0 2px 5px rgba(0,0,0,0.16) !important;
+	-o-box-shadow: 0 2px 5px rgba(0,0,0,0.23),0 2px 5px rgba(0,0,0,0.16) !important;
+}
+.home .widget_woothemes_testimonials .quote blockquote p {
+	padding: 0 !important;
+	margin: 0 !important;
+	font-style: normal !important;
+}
+.widget_woothemes_testimonials .quote .author {
+	text-align: center;
+	width: 100%;
+	margin-top: 10px;
+	color: #727272;
+	font-style: italic;
+}
+
+a:hover {
+	opacity: 1 !important;
+}
+
+#logo {
+	width: 82% !important;
+	text-shadow: 1px 1px 6px #000;
+	margin: 0 auto;
+}
+
+#logo-image {
+	float: left;
+	text-align: right;
+	margin-right: 30px;
+	margin-top: -8px;
+}
+#logo-image a:hover {
+	opacity: 0.8 !important;
+}
+
+select {
+	font-size: 100%;
+}
+
+.features {
+	margin: 40px 0 0 0;
+}
+.feature .feature-content {
+	font-size: 18px !important;
+}
+.feature .icon-preview {
+	font-size: 9em !important;
+	text-shadow: 0 3px 10px rgba(0,0,0,0.23),0 3px 10px rgba(0,0,0,0.16) !important;
+}
+.widget_woothemes_features .feature .feature-title {
+	font-size: 2em;
+	margin-top: 15px;
+}
+#main .widget_woothemes_features .feature .feature-content {
+	font-size: 1.2em;
+  	line-height: 1.5;
+}
+.home .eo-venue-map {
+	margin-bottom: 40px;
+}
+
+#logo .site-title a:hover {
+	text-decoration: none;
+	opacity: 0.7 !important;
+}
+
+#logo .site-description {
+	margin-top: 10px;
+}
+
+#header-container {
+	background-image: url('images/header-tile.png');
+	background-repeat: repeat;
+	margin-bottom: 30px;
+	box-shadow: inset 0 -1em 1em 0 rgba(0,0,0,.03);
+	-webkit-box-shadow: inset 0 -1em 1em 0 rgba(0,0,0,.03);
+	-moz-box-shadow: inset 0 -1em 1em 0 rgba(0,0,0,.03);
+	-o-box-shadow: inset 0 -1em 1em 0 rgba(0,0,0,.03);
+}
+
+#header {
+	background-position: center !important;
+	background-size: contain;
+}
+
+.header-buttons .button {
+	box-shadow: 0 3px 10px rgba(0,0,0,0.23),0 3px 10px rgba(0,0,0,0.16) !important;
+	-webkit-box-shadow: 0 3px 10px rgba(0,0,0,0.23),0 3px 10px rgba(0,0,0,0.16) !important;
+	-moz-box-shadow: 0 3px 10px rgba(0,0,0,0.23),0 3px 10px rgba(0,0,0,0.16) !important;
+	-o-box-shadow: 0 3px 10px rgba(0,0,0,0.23),0 3px 10px rgba(0,0,0,0.16) !important;
+	transition: all 200ms ease;
+	-webkit-transition: all 200ms ease;
+	border: 0 !important;
+}
+.header-buttons .button:hover {
+	transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	background: #af301a !important;
+}
+
+.header-buttons {
+	margin-top: 17px;
+}
+.header-buttons .button {
+	background: #d54e21;
+	margin-right: 20px;
+}
+.header-buttons .button.attend {
+	margin-right: 0;
+}
+
+#logo {
+	float: none;
+	text-align: left;
+}
+
+a:hover {
+	text-decoration: none !important;
+	opacity: 0.8;
+}
+.widget {
+	width: 100%;
+}
+.nav-toggle {
+	display: none;
+}
+#copyright {
+	text-align: center;
+}
+
+.wpcd-teams article {
+	width: 100%;
+	margin-bottom: 0;
+	display: table;
+}
+.wpcd-teams article .team-list-icon {
+	display: table-cell;
+	vertical-align: middle;
+}
+.wpcd-teams article .team-list-data {
+	display: table-cell;
+	width: 84%;
+}
+.wpcd-teams article i {
+	font-size: 600%;
+	height: auto;
+	text-shadow: 0 3px 10px rgba(0,0,0,0.23),0 3px 10px rgba(0,0,0,0.16) !important;
+}
+.wpcd-teams article header h3 {
+	font-size: 200%;
+}
+.wpcd-teams hr {
+	margin: 40px 0 !important;
+}
+
+.widget ul.menu {
+	list-style: none;
+}
+.widget ul.menu li {
+	border-bottom: 1px solid #CCC;
+	padding: 5px 0 5px 10px;
+}
+.widget ul.menu li:hover, .widget ul.menu li.current-menu-item {
+	background: #EFEFEF;
+}
+.widget ul.menu li a {
+	display: inline-block;
+	width: 100%;
+}
+#sidebar {
+	overflow: visible;
+}
+.sidebar-button {
+	text-align: center;
+}
+.sidebar-button .button {
+	width: 100%;
+}
+.add-resource-form label {
+	font-weight: bold;
+}
+.add-resource-form label.resource_type_label {
+	font-weight: normal;
+	font-size: 80%;
+	display: inline;
+	margin-right: 20px;
+}
+.add-resource-form label,
+.add-resource-form input[type="text"],
+.add-resource-form input[type="url"],
+.add-resource-form input[type="file"],
+.add-resource-form input[type="submit"],
+.add-resource-form textarea,
+.add-resource-form select {
+	display: block;
+	width: 100%;
+}
+.add-resource-form select {
+	margin-bottom: 10px;
+}
+.add-resource-form input[type="file"] {
+	border: 0;
+	font-size: 80%;
+}
+.full-width, .eo-fes-form-add-new-venue input, .eo-event-form-venue-map {
+	width: 100% !important;
+}
+.eo-fes-form-element label {
+	font-weight: bold;
+}
+.eo-fes-form-element label.eo-fes-form-element-sublabel, .eo-fes-form-add-new-venue label {
+	font-weight: normal;
+}
+.eo-fes-form-add-new-venue {
+	margin-top: 20px;
+}
+.eo-fes-form-add-new-venue p {
+	margin-bottom: 0 !important;
+}
+
+.post-meta .dashicons {
+	font-size: 100%;
+	vertical-align: middle;
+	margin-top: 3px;
+}
+.resource-url {
+	font-weight: bold !important;
+}
+.resource-media-title {
+	display: inline-block;
+	margin-right: 10px !important;
+}
+.single-resource .post-entries, .single-team .post-entries {
+	display: none;
+}
+.single-team .entry-title .dashicons {
+	font-size: 100%;
+	width: auto;
+	margin-right: 10px;
+	margin-top: 3px;
+}
+.single-team h3 {
+	margin-top: 20px;
+}
+.single-team .rss-date {
+	display: block;
+	font-size: 75%;
+	font-style: italic;
+}
+
+.map-venue-address {
+	font-size: 75%;
+	font-style: italic;
+}
+
+.team-resource-content {
+	font-style: italic;
+}
+.team-resource-downloads {
+	font-size: 80%;
+}

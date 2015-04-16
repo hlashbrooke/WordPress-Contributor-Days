@@ -27,3 +27,8 @@ wp-settings.php
 wp-signup.php
 wp-trackback.php
 xmlrpc.php
+wp-content/plugins/event-organiser
+wp-content/plugins/event-organiser-pro
+wp-content/plugins/features-by-woothemes
+wp-content/plugins/icons-for-features
+wp-content/plugins/woosidebars

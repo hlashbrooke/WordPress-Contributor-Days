@@ -42,7 +42,7 @@ woo_post_before();
 
 	    	$url = get_post_meta( get_the_ID(), '_team_url', true );
 	    	if( $url ) {
-	    		echo '<a href="' . esc_url( $url ) . '" target="_blank" class="button">' . __( 'Find out more', 'wpcd' ) . '</a>';
+	    		echo '<a href="' . esc_url( $url ) . '" target="_blank" class="button">' . sprintf( __( 'Find out more about contributing to %s', 'wpcd' ), get_the_title() ) . '</a>';
 	    	}
 
 	    	$notes = get_post_meta( get_the_ID(), '_contribution_notes', true );

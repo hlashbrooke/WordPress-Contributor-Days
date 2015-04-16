@@ -156,8 +156,8 @@ function wpcd_teams_shortcode ( $atts ) {
 
 			$content = '';
 			switch( $atts['context'] ) {
-				case 'host': $content = $team->post_excerpt; break;
-				case 'attend': $content = nl2br( get_post_meta( $team->ID, '_contribution_notes', true ) ); break;
+				case 'host': $content = nl2br( get_post_meta( $team->ID, '_contribution_notes', true ) ); break;
+				case 'attend': $content = $team->post_excerpt; break;
 			}
 			if( ! $content ) {
 				return;
